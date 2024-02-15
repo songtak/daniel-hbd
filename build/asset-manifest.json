@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/paywatch_mbti/static/css/main.17309186.css",
+    "main.js": "/paywatch_mbti/static/js/main.63e65a6b.js",
+    "static/js/787.b58bf137.chunk.js": "/paywatch_mbti/static/js/787.b58bf137.chunk.js",
+    "index.html": "/paywatch_mbti/index.html",
+    "main.17309186.css.map": "/paywatch_mbti/static/css/main.17309186.css.map",
+    "main.63e65a6b.js.map": "/paywatch_mbti/static/js/main.63e65a6b.js.map",
+    "787.b58bf137.chunk.js.map": "/paywatch_mbti/static/js/787.b58bf137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17309186.css",
+    "static/js/main.63e65a6b.js"
+  ]
+}
