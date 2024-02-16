@@ -1,0 +1,52 @@
+.images_list {
+  width: 600px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.photo_001 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_001.jpeg);
+}
+.photo_002 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_002.png);
+}
+.photo_003 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_003.jpeg);
+}
+.photo_004 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_004.png);
+}
+.photo_005 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_005.png);
+}
+.photo_006 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_006.png);
+}
+.photo_007 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_007.png);
+}
+.photo_008 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_008.png);
+}
+.photo_009 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_009.png);
+}
+.photo_010 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_010.png);
+}
+.photo_011 {
+  width: -webkit-fill-available;
+  content: url(../images/photo_011.jpeg);
+}

@@ -286,7 +286,7 @@ ul {
 }
 
 @keyframes blinker {
-  80% {
+  10% {
     opacity: 0;
   }
 }
