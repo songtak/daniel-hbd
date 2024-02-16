@@ -15,7 +15,7 @@ function App() {
           </div>
         </div>
         <div className="images">
-          <img src="../src/assets/images/photo_001.jpeg" />
+          <img src="../public/images/photo_001.jpeg" />
         </div>
       </div>
     </div>
