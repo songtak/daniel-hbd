@@ -10,7 +10,7 @@ body {
 }
 /** =================================================== */
 .wrapper {
-  background-color: rgb(246, 248, 188);
+  /* background-color: rgb(246, 248, 188); */
   /* background-color: rgb(28, 230, 176); */
   height: 100vh;
   width: 100%;
@@ -278,4 +278,48 @@ ul {
   margin-top: 2rem;
   text-align: center;
   font-size: 1.5rem;
+}
+
+/** ======================================================= */
+.blink {
+  animation: blinker 0.3s linear infinite;
+}
+
+@keyframes blinker {
+  80% {
+    opacity: 0;
+  }
+}
+
+.animated-title {
+  font-size: 60px;
+  /* font-family: "Raleway", Sans-serif; */
+  font-weight: 300;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 100px 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.animated-title .track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (hover: hover) and (min-width: 700px) {
+  .animated-title .content {
+    -webkit-transform: translateY(calc(100% - 8rem));
+    transform: translateY(calc(100% - 8rem));
+  }
 }
